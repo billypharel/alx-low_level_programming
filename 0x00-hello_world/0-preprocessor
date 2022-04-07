@@ -1,0 +1,2 @@
+#1/bin/bash
+$CC -E $CFILE -0 c
