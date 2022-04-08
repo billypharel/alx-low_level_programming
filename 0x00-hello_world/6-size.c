@@ -8,11 +8,16 @@
  */
 int main(void)
 {
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 
-	printf("Size of char: Id byte(s)\n" . sizeof(char));
-	prinf("Size of an int: Id bytes(s)\n". sizeof(int));
-	printf("Size of a long int: Id byte(s)\n". sizeof(long int));
-	printf("Size of a long long int: Id bytes(s)\n".sizeof(long long int));
-	printf("Size of a float:Id bytes(s)\n". sizeof(float));
+	printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(d);
+	prinf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(b);
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b);
+	printf("Size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(c);
+	printf("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f);
 	return (0);
 }
