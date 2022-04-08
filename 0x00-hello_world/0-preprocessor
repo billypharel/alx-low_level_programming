@@ -1,3 +1,2 @@
 #!/bin/bash
-&CC -c $CFILEs
-
+gcc $CFILE -E -0 c
