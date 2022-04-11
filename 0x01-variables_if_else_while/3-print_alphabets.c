@@ -5,8 +5,7 @@
  *Description: print lower and upper alphabet on the same line
  *Returne= 0
  */
-int main(void)
-
+init main(void)
 {
 	int c;
 
