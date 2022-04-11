@@ -6,7 +6,7 @@
  * main - Entry point
  *
  *Description: prints a number and it's last digit along with whether its
- *last digit is 0,greater than 5, or less than 6 and not 0.
+ *last digit is 0, greater than 5, or less than 6 and not 0.
  *Return: 0
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	int n;
 	
         srand(time(0));
-        n = rand() - RAND_MAX / 2
+        n = rand() - RAND_MAX / 2;
 
         printf("Last digit of %d is %d %s\n", n, n % 10,
         ((n % 10) == 0) ? "and is 0"
