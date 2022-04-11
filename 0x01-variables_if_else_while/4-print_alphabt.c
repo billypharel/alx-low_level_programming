@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- *main -Entry point
- * 
+ *main -Entry point 
  *Description: print lowercase alphabet excluding e and q
  *Return: 0
  */
 int main(void)
+
 {
 char c;
 for (c = 'a'; c <= 'z'; ++c)
