@@ -5,7 +5,7 @@
  *Description: print the lowercase alphabet
  *Return: Always 0 (succes/correct)
  */
-int main(main)
+int main(void)
 {
 	int c;
 
