@@ -2,7 +2,6 @@
 
 /**
  * main -Entry point
- *
  * Description: print number 0 to 9 0n one line
  *Return: 0
  */
