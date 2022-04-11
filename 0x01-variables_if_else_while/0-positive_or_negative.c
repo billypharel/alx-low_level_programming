@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ *main - prints a random number and state whether
+ *      it is positive,negative, or zero
  *
  *Return: Always 0 (Success)
  */
@@ -14,13 +15,15 @@ int main(void)
 	srand(time(0));
 	n= rand() - RAND_max / 2;
 
-	if (n==0)
+	if (n>1)
 
-		printf("Il is zero\n", n);
+		printf("Id is positive\n", n);
 	else if (n<0)
-		printf("Il is negative\n", n);
+		printf("Id is negative\n", n);
 	else
-		printf("Il is positive \n", n);
+
+		printf("Id is zero\n", n);
+	
 	return (0);
 }
 
