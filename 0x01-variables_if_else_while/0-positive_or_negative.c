@@ -4,14 +4,14 @@
 
 /**
  * main - prints a random number and state whether
- *      it is positive, negative, or zero.
+ *        it is positive, negative, or zero.
  *
  *Return: Always 0 (Success).
  */
 int main(void)
-{ 
-	int n;
 
+{
+	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
