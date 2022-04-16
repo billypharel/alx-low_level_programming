@@ -1,18 +1,21 @@
 #include <stdio.h>
-
 /**
- * main -Entry point
- * Description: print number 0 to 9 0n one line
- *Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (success/corect)
  */
 int main(void)
+
 {
 int i;
 
-for (i = '0'; i <= 9; ++i)
-putchar('0' + i);
+for (i = 48 ; i <= 57; i++)
+{
+putchar (i);
+}
 
-putchar('\n');
+putchar ('\n');
 
 return (0);
+
 }
