@@ -1,30 +1,30 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- *puts_half - prints every other character of a string
- *@str: A pointer to an int that will be changed
- *
- *Return: void which means our answer is correct
+ *print_array - prints n elements of an array of integers
+ *@a: A pointer to an int that will be updated/ changed
+ *@n: return value n
+ *Return: void which ,means our answer is correct
  */
 
-void puts_half(char *str)
+void print_array(int *a, int n)
 
 {
-int i, last;
+int i;
 
 i = 0;
-while (str[i] != '\0')
+while (i < n)
 {
+printf("%d", a[i]);
+
+if (i < n - 1)
+{
+printf(", ");
+}
+
 i++;
 }
 
-last = (i + 1) / 2;
-
-for (i = last; str[i]; i++)
-{
-_putchar (str[i]);
-}
-
-_putchar ('\n');
-
+printf("\n")
+;
 }
