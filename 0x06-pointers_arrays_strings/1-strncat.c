@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
  *_strncat - concatinate 2 strings.
- *&dest: first string.
- *&src: second string.
- *&n: the number of bytes to use from src.
+ *@dest: first string.
+ *@src: second string.
+ *@n: the number of bytes to use from src.
  *Return: string.
  */
 
